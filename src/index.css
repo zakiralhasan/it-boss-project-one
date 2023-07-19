@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, monospace, Arial, sans-serif;
+  font-family: monospace;
+  /* font-family: Inter, monospace, Arial, sans-serif; */
 }
 
 * {
