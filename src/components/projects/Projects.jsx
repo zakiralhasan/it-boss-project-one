@@ -13,7 +13,8 @@ const Projects = () => {
                                 <Typewriter />
                             </div>
                         </div>
-                        <div className='project-items grid grid-cols-2 gap-4 justify-items-center p-12'>
+                        {/* Project items container start  */}
+                        <div className=' grid grid-cols-2 gap-4 justify-items-center p-12'>
                             <div className='w-[477px]'>
                                 <Link >
                                     <p className='border border-black p-7 text-2xl  '>Course Projects</p>

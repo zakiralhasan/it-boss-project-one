@@ -4,6 +4,7 @@ import Header from '../../components/header/Header';
 import { BsMouse } from 'react-icons/bs';
 import Languages from '../../components/languages/Languages';
 import Projects from '../../components/projects/Projects';
+import Courses from '../../components/courses/Courses';
 const Home = () => {
     return (
         <>
@@ -17,6 +18,7 @@ const Home = () => {
                         </div>
                         <Languages></Languages>
                         <Projects></Projects>
+                        <Courses></Courses>
                     </div>
                 </div>
             </div>
