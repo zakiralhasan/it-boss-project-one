@@ -1,5 +1,6 @@
-
+import Typewriter from 'typewriter-effect';
 import headerImg from '../../assets/header-image.png'
+
 const Header = () => {
     return (
         <>
@@ -12,7 +13,14 @@ const Header = () => {
                             </div>
                         </div>
                         <div className="header-right flex flex-col justify-end my-6">
-                            <h2 className='text-6xl mb-6'> Hello World, I`m Ali B. </h2>
+                            <div className='flex mb-6'>
+                                <h2 className='text-6xl'> Hello World, I`m Ali B.</h2>
+                                <div className='text-6xl '>
+                                    <Typewriter />
+                                </div>
+                            </div>
+
+
                             <p className='text-4xl font-bold'>I`m a programmer</p>
                             <p className='text-4xl font-bold'> looking for a back-end internship. </p>
                         </div>

@@ -1,5 +1,6 @@
 import { CircularProgressbarWithChildren, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import Typewriter from 'typewriter-effect';
 
 const Languages = () => {
 
@@ -8,7 +9,12 @@ const Languages = () => {
             <div id="languages-section">
                 <div className="languages-container">
                     <div className="languages-inner bg-black text-white mt-4">
-                        <h2 className='text-6xl text-center py-10'>Languages</h2>
+                        <div className='flex mb-6 py-10 justify-center content-center'>
+                            <h2 className='text-6xl'> Languages</h2>
+                            <div className='text-6xl text-[#1ABFBC]'>
+                                <Typewriter />
+                            </div>
+                        </div>
                         <hr />
                         <div className='flex py-10 gap-10 justify-center'>
                             <CircularProgressbarWithChildren
