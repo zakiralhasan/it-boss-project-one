@@ -3,6 +3,7 @@ import Header from '../../components/header/Header';
 
 import { BsMouse } from 'react-icons/bs';
 import Languages from '../../components/languages/Languages';
+import Projects from '../../components/projects/Projects';
 const Home = () => {
     return (
         <>
@@ -15,6 +16,7 @@ const Home = () => {
                             <BsMouse className='text-6xl' />
                         </div>
                         <Languages></Languages>
+                        <Projects></Projects>
                     </div>
                 </div>
             </div>
