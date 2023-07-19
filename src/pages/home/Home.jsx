@@ -2,6 +2,7 @@
 import Header from '../../components/header/Header';
 
 import { BsMouse } from 'react-icons/bs';
+import Languages from '../../components/languages/Languages';
 const Home = () => {
     return (
         <>
@@ -13,6 +14,7 @@ const Home = () => {
                             <p>SCROLL DOWN</p>
                             <BsMouse className='text-6xl' />
                         </div>
+                        <Languages></Languages>
                     </div>
                 </div>
             </div>
