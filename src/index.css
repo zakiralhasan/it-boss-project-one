@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, monospace, Arial, sans-serif;
 }
 
 * {
@@ -12,11 +12,15 @@
   box-sizing: border-box;
 }
 
-html {
+/* html {
   font-size: 62.5%;
-}
+} */
 
 body {
   max-width: 100%;
   width: 100%;
+}
+
+li {
+  list-style: none;
 }
