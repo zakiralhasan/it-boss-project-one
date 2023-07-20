@@ -31,8 +31,8 @@ const Projects = () => {
                                 </Link>
                             </div>
                             <div className='w-[320px] xl:w-[477px]'>
-                                <Link >
-                                    <p className='border border-black p-7 text-2xl  '>Course Projects</p>
+                                <Link to='/mentel-health'>
+                                    <p className='border border-black p-7 text-2xl  '>Mental Health App</p>
                                 </Link>
                             </div>
                             <div className='w-[320px] xl:w-[477px]'>
