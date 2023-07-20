@@ -16,7 +16,8 @@ const Languages = () => {
                             </div>
                         </div>
                         <hr />
-                        <div className='flex py-10 gap-10 justify-center'>
+                        {/* Circular data section start below */}
+                        <div className='flex flex-wrap py-10 gap-10 justify-center'>
                             <CircularProgressbarWithChildren
                                 className=' w-48 '
                                 value={85}

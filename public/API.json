@@ -1,0 +1,66 @@
+[
+    {
+        "id": "a1",
+        "title": "Object Oriented Programming",
+        "data": "Emphasizing writing larger programs and designing and implementing classical abstract data types such as list, stack, queue, binary search tree, graph, priority queue, hash table. Topics include string processing and recursion; data abstraction, encapsulation, and structure implementation; object-oriented program design; specification, implementation and application of these traditional ADTs. The course also emphasizes dynamic memory allocation, search and sorting algorithms, and introduces algorithm complexity.",
+        "btnData": "Course Projects",
+        "language": "C++, Java",
+        "image": "/src/assets/courses-img-one.png"
+    },
+    {
+        "id": "a2",
+        "title": "Computer Systems",
+        "data": "Introduction to the interaction between user programs and the operating system/hardware. Major topics include C programming, introductory systems programming, and assembly language. Other concepts covered include UNIX, machine data representation, thread management, optimization, and virtual memory. Programming is done in the Linux Environment.",
+        "btnData": "Course Projects",
+        "language": "C, Assembly-MIPS",
+        "image": "/src/assets/courses-img-two.png"
+    },
+    {
+        "id": "a3",
+        "title": "Programming Languages",
+        "data": "A study of programming languages, including their syntax, semantics, and implementation. Several different models of languages are discussed, including dynamic, scripting (e.g., Ruby, Python) functional (e.g., OCaml, Haskell, Scheme), and memory-safe systems programming (e.g., Rust). Explores language features such as formal syntax, scoping and binding of variables, higher-order programming, typing, and type polymorphism. Introduces finite automata, context-free grammar, parsing, lambda calculus, and basics of security attacks and software security.",
+        "btnData": "Course Projects",
+        "language": "Ruby, Ocaml, Rust",
+        "image": "/src/assets/courses-img-three.png"
+    },
+    {
+        "id": "a4",
+        "title": "Applied Probability and Statistics",
+        "data": "An introductory course to probability, the mathematical theory of randomness, and to statistics, the mathematical science of data analysis and analysis in the presence of uncertainty. Applications of statistics and probability to real world problems are also presented. This course utilizes R-Studio and R extensively.",
+        "btnData": "Course Projects",
+        "language": "R",
+        "image": "/src/assets/courses-img-four.png"
+    },
+    {
+        "id": "a5",
+        "title": "Discrete Structures",
+        "data": "Fundamental mathematical concepts related to computer science, including finite and infinite sets, relations, functions, and propositional logic. Introduction to other techniques, modeling and solving problems in computer science. Introduction to permutations, combinations, graphs, and trees with selected applications.",
+        "btnData": "Course Projects",
+        "language": "",
+        "image": "/src/assets/courses-img-five.png"
+    },
+    {
+        "id": "a6",
+        "title": "Algorithms",
+        "data": "A systematic study of the complexity of some elementary algorithms related to sorting, graphs and trees, and combinatorics. Algorithms are analyzed using mathematical techniques to solve recurrences and summations.",
+        "btnData": "Course Projects",
+        "language": "Python",
+        "image": "/src/assets/courses-img-six.png"
+    },
+    {
+        "id": "a7",
+        "title": "Fall22: Database Design",
+        "data": "Students are introduced to database systems and motivates the database approach as a mechanism for modeling the real world. An in-depth coverage of the relational model, logical database design, query languages, and other database concepts including query optimization, concurrency control; transaction management, and log based crash recovery. Distributed and Web database architectures are also discussed.",
+        "btnData": "Course Projects",
+        "language": "Python",
+        "image": "/src/assets/courses-img-seven.png"
+    },
+    {
+        "id": "a8",
+        "title": "Fall22: Advanced Data Structures",
+        "data": "Description, properties, and storage allocation functions of data structures including balanced binary trees, B-Trees, hash tables, skiplists, tries, KD-Trees and Quadtrees. Algorithms for manipulating structures. Applications from areas such as String Processing, Computer Graphics, Information Retrieval, Computer Networks, Computer Vision, and Operating Systems.",
+        "btnData": "Course Projects",
+        "language": "Python, Java",
+        "image": "/src/assets/courses-img-eight.png"
+    }
+]
