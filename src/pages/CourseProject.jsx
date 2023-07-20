@@ -4,7 +4,7 @@ import { FiGithub } from 'react-icons/fi';
 
 const CourseProject = () => {
     return (
-        <div>
+        <>
             <div>
                 <Navbar />
                 <div>
@@ -75,7 +75,7 @@ const CourseProject = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
