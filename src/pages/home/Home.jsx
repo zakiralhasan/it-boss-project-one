@@ -5,10 +5,15 @@ import { BsMouse } from 'react-icons/bs';
 import Languages from '../../components/languages/Languages';
 import Projects from '../../components/projects/Projects';
 import Courses from '../../components/courses/Courses';
+import Navbar from '../../components/navbar/Navbar';
+import Footer from '../../components/footer/Footer';
+
+
 const Home = () => {
     return (
         <>
             <div id='home'>
+                <Navbar />
                 <div className='home-container'>
                     <div className='home-page-inner'>
                         <Header></Header>
@@ -21,6 +26,7 @@ const Home = () => {
                         <Courses></Courses>
                     </div>
                 </div>
+                <Footer />
             </div>
         </>
     );

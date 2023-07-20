@@ -36,13 +36,13 @@ const Projects = () => {
                                 </Link>
                             </div>
                             <div className='w-[320px] xl:w-[477px]'>
-                                <Link >
-                                    <p className='border border-black p-7 text-2xl  '>Course Projects</p>
+                                <Link to='/orgInternet'>
+                                    <p className='border border-black p-7 text-2xl  '>Org Internet</p>
                                 </Link>
                             </div>
                             <div className='w-[320px] xl:w-[477px]'>
-                                <Link >
-                                    <p className='border border-black p-7 text-2xl  '>Course Projects</p>
+                                <Link to='/others'>
+                                    <p className='border border-black p-7 text-2xl  '>Other Projects</p>
                                 </Link>
                             </div>
                         </div>
