@@ -26,7 +26,9 @@ const Navbar = () => {
             <div id='nav-section'>
                 <div className='nav-container'>
                     <div className='nav-inner flex justify-between items-center mt-3 text-base p-2'>
-                        <img src={logo} alt="logo" className='w-8' />
+                        <a href="/">
+                            <img src={logo} alt="logo" className='logo w-8' />
+                        </a>
                         <div className='flex gap-4 my-4'>
                             {manuBar}
                         </div>

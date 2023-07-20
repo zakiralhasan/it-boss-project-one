@@ -16,7 +16,7 @@ const Projects = () => {
                         {/* Project items container start  */}
                         <div className=' grid xl:grid-cols-2 gap-4 justify-items-center p-12'>
                             <div className='w-[320px] xl:w-[477px]'>
-                                <Link >
+                                <Link to='/course-projecs'>
                                     <p className='border border-black p-7 text-2xl  '>Course Projects</p>
                                 </Link>
                             </div>
@@ -26,8 +26,8 @@ const Projects = () => {
                                 </Link>
                             </div>
                             <div className='w-[320px] xl:w-[477px]'>
-                                <Link >
-                                    <p className='border border-black p-7 text-2xl  '>Course Projects</p>
+                                <Link to='/webises'>
+                                    <p className='border border-black p-7 text-2xl  '>Websites</p>
                                 </Link>
                             </div>
                             <div className='w-[320px] xl:w-[477px]'>
