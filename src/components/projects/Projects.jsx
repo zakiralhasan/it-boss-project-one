@@ -21,8 +21,8 @@ const Projects = () => {
                                 </Link>
                             </div>
                             <div className='w-[320px] xl:w-[477px]'>
-                                <Link >
-                                    <p className='border border-black p-7 text-2xl  '>Course Projects</p>
+                                <Link to='/data-analysis'>
+                                    <p className='border border-black p-7 text-2xl  '>Data Analysis</p>
                                 </Link>
                             </div>
                             <div className='w-[320px] xl:w-[477px]'>
