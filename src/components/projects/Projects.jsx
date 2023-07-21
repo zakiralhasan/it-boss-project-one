@@ -1,3 +1,4 @@
+import './Projects.css';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 
@@ -14,35 +15,35 @@ const Projects = () => {
                             </div>
                         </div>
                         {/* Project items container start  */}
-                        <div className=' grid xl:grid-cols-2 gap-4 justify-items-center p-12'>
-                            <div className='w-[320px] xl:w-[477px]'>
+                        <div className=' grid xl:grid-cols-2 gap-20 justify-items-center p-12'>
+                            <div className='w-[375px] h-[90px] projects-item-border-out'>
                                 <Link to='/course-projecs'>
-                                    <p className='border border-black p-7 text-2xl  '>Course Projects</p>
+                                    <p className='projects-item-border-in text-2xl px-12 py-5'>Course Projects</p>
                                 </Link>
                             </div>
-                            <div className='w-[320px] xl:w-[477px]'>
+                            <div className='w-[375px] h-[90px] projects-item-border-out'>
                                 <Link to='/data-analysis'>
-                                    <p className='border border-black p-7 text-2xl  '>Data Analysis</p>
+                                    <p className='projects-item-border-in text-2xl px-12 py-5'>Data Analysis</p>
                                 </Link>
                             </div>
-                            <div className='w-[320px] xl:w-[477px]'>
+                            <div className='w-[375px] h-[90px] projects-item-border-out'>
                                 <Link to='/webises'>
-                                    <p className='border border-black p-7 text-2xl  '>Websites</p>
+                                    <p className='projects-item-border-in text-2xl px-12 py-5'>Websites</p>
                                 </Link>
                             </div>
-                            <div className='w-[320px] xl:w-[477px]'>
+                            <div className='w-[375px] h-[90px] projects-item-border-out'>
                                 <Link to='/mentel-health'>
-                                    <p className='border border-black p-7 text-2xl  '>Mental Health App</p>
+                                    <p className='projects-item-border-in text-2xl px-12 py-5'>Mental Health App</p>
                                 </Link>
                             </div>
-                            <div className='w-[320px] xl:w-[477px]'>
+                            <div className='w-[375px] h-[90px] projects-item-border-out'>
                                 <Link to='/orgInternet'>
-                                    <p className='border border-black p-7 text-2xl  '>Org Internet</p>
+                                    <p className='projects-item-border-in text-2xl px-12 py-5'>Org Internet</p>
                                 </Link>
                             </div>
-                            <div className='w-[320px] xl:w-[477px]'>
+                            <div className='w-[375px] h-[90px] projects-item-border-out'>
                                 <Link to='/others'>
-                                    <p className='border border-black p-7 text-2xl  '>Other Projects</p>
+                                    <p className='projects-item-border-in text-2xl px-12 py-5'>Other Projects</p>
                                 </Link>
                             </div>
                         </div>
