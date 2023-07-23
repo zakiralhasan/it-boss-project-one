@@ -1,12 +1,13 @@
 import './Navbar.css'
-import { MdLightMode, MdNightlight } from 'react-icons/md';
+import { MdDarkMode, MdLightMode } from 'react-icons/md';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/main-logo.png'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
+    const [darkMode, setDarkMode] = useState(false)
     const [mobileManue, setMobileManue] = useState(false)
     const [mobileManueClick, setMobileManueClick] = useState(true)
 
@@ -44,10 +45,28 @@ const Navbar = () => {
             <Link to='/'>Contacts</Link>
         </li>
     </>
+    // Function for dark mode conrol 
+    const toggleDarkMode = () => {
+        let htmlClasses = document.querySelector("html").classList;
+        if (localStorage.theme === "dark") {
+            htmlClasses.remove("dark");
+            localStorage.removeItem("theme");
+        } else {
+            htmlClasses.add("dark");
+            localStorage.setItem("theme", "dark");
+        }
+    };
+    useEffect(() => {
+        if (localStorage.theme === "dark") {
+            setDarkMode(false)
+        } else {
+            setDarkMode(true)
+        }
+    }, [])
     return (
         <>
             <div id='nav-section'>
-                <div className='nav-container relative'>
+                <div className='nav-container relative dark:bg-[#292929] dark:text-white'>
                     <div className='nav-inner flex justify-between items-center mt-3 text-base mx-10'>
                         <a href="/">
                             <img src={logo} alt="logo" className='logo w-8' />
@@ -67,16 +86,19 @@ const Navbar = () => {
                                         }
                                     </div>
                                 }
+                                {/* Mobile manue bar controller  */}
                                 {mobileManueClick ?
                                     <AiOutlineMenu className='block xl:hidden cursor-pointer' onClick={() => { setMobileManue(!mobileManue); setMobileManueClick(!mobileManueClick) }} /> :
                                     <BiMenuAltRight className='block xl:hidden cursor-pointer' onClick={() => { setMobileManue(!mobileManue); setMobileManueClick(!mobileManueClick) }} />
-
                                 }
-
                             </div>
+                            {/* Dark icon controller  */}
                             <div>
-                                <MdLightMode />
-                                {/* <MdNightlight /> */}
+                                {!darkMode ?
+                                    <MdLightMode onClick={() => { toggleDarkMode(); setDarkMode(true) }} />
+                                    :
+                                    <MdDarkMode onClick={() => { toggleDarkMode(); setDarkMode(false) }} />
+                                }
                             </div>
                         </div>
                     </div>
