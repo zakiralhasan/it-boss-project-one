@@ -1,0 +1,28 @@
+.header-animate-item-1 {
+    position: absolute;
+    background-color: #17bebb;
+    padding-inline: 10px;
+    /* opacity: 0; */
+    transform-origin: rotate(30deg);
+    animation: 3s ease-in 1s 2;
+}
+
+.header-animate-item-2 {
+    width: max-content;
+    position: absolute;
+    background-color: #17bebb;
+    padding-inline: 10px;
+    opacity: 0;
+    transform-origin: 10% 75%;
+    animation: 3s ease-in 1s 2 linear infinite;
+}
+
+.header-animate-item-3 {
+    width: max-content;
+    position: absolute;
+    background-color: #17bebb;
+    padding-inline: 10px;
+    opacity: 0;
+    transform-origin: 10% 75%;
+    animation: rotateWords 9s var(6) linear infinite;
+}

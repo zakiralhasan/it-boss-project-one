@@ -1,7 +1,10 @@
 import Typewriter from 'typewriter-effect';
 import headerImg from '../../assets/header-image.png'
 
+
 const Header = () => {
+
+
     return (
         <>
             <div id="header-section">
@@ -21,12 +24,16 @@ const Header = () => {
                                 </div>
                             </div>
 
-                            <p className='text-4xl font-bold'>I`m a programmer</p>
-                            <p className='text-4xl font-bold'> looking for a back-end internship. </p>
+                            <p className='text-4xl font-bold text-left relative'>A
+                                <span className="header-animate-item item px-2 bg-[#1ABFBC] absolute left-10">
+                                    computer science major
+                                </span>
+                            </p>
+                            <p className='text-4xl font-bold text-left'> looking for a back-end internship. </p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     );
 };

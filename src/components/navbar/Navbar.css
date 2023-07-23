@@ -1,0 +1,23 @@
+.manuBarForMobile {
+    background-color: black;
+    opacity: .9;
+    color: white;
+    position: absolute;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 60px;
+    padding: 127px 0;
+    z-index: 99;
+}
+
+.manuBarForMobile>li {
+    padding: 12px;
+    font-size: 21px;
+}
+
+.manuBarForMobile>li:hover {
+    scale: 1.3;
+    color: #1ABFBC;
+    transition: all .5s ease-in-out;
+}
