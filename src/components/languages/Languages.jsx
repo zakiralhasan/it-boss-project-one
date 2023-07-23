@@ -8,7 +8,7 @@ const Languages = () => {
         <>
             <div id="languages-section">
                 <div className="languages-container">
-                    <div className="languages-inner bg-black text-white mt-4">
+                    <div className="languages-inner bg-black text-white pt-4">
                         <div className='flex mb-6 py-10 justify-center content-center'>
                             <h2 className='text-6xl'> Languages</h2>
                             <div className='text-6xl text-[#1ABFBC]'>

@@ -10,7 +10,7 @@ import img5 from '../assets/web-page-image-five.png'
 const Websites = () => {
     return (
         <>
-            <div>
+            <div className='dark:bg-[#292929] dark:text-white'>
                 <Navbar />
                 <div>
                     <div className='bg-black text-white text-6xl text-center my-10 py-32'>

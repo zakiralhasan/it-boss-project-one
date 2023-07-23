@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <>
             <div id="header-section">
-                <div className="header-container p-1 my-10">
+                <div className="header-container p-1 py-10 dark:bg-[#292929] dark:text-white">
                     <div className="header-section-inner flex gap-16 justify-center">
                         <div className="header-left border-[1rem] border-[#DDDDDD] max-w-[300px] rounded-sm hidden xl:block">
                             <div className='border-[1rem] border-[#DDDDCC]'>

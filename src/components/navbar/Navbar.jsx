@@ -66,7 +66,7 @@ const Navbar = () => {
     return (
         <>
             <div id='nav-section'>
-                <div className='nav-container relative dark:bg-[#292929] dark:text-white'>
+                <div className='nav-container relative dark:bg-[#515151] dark:text-white'>
                     <div className='nav-inner flex justify-between items-center mt-3 text-base mx-10'>
                         <a href="/">
                             <img src={logo} alt="logo" className='logo w-8' />
@@ -94,10 +94,10 @@ const Navbar = () => {
                             </div>
                             {/* Dark icon controller  */}
                             <div>
-                                {!darkMode ?
-                                    <MdLightMode onClick={() => { toggleDarkMode(); setDarkMode(true) }} />
+                                {darkMode ?
+                                    <MdLightMode className='cursor-pointer' onClick={() => { toggleDarkMode(); setDarkMode(false) }} />
                                     :
-                                    <MdDarkMode onClick={() => { toggleDarkMode(); setDarkMode(false) }} />
+                                    <MdDarkMode className='cursor-pointer' onClick={() => { toggleDarkMode(); setDarkMode(true) }} />
                                 }
                             </div>
                         </div>

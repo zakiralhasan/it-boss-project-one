@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <>
             <div id="project-section">
-                <div className="project-container">
+                <div className="project-container dark:bg-[#292929] dark:text-white">
                     <div className="project-inner ">
                         <div className='flex mb-6 py-10 justify-center content-center'>
                             <h2 className='text-6xl'> Projects</h2>

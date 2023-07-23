@@ -17,7 +17,7 @@ const OrgInternet = () => {
                         />
                     </div>
                     <div className=" flex justify-center">
-                        <div className="bg-white w-11/12 text-left p-7 rounded-[30px] mb-10">
+                        <div className="bg-white w-11/12 text-left p-7 rounded-[30px] mb-10 dark:bg-[#292929] dark:text-white">
                             <div className="flex flex-wrap justify-center text-white">
                                 <h3 className="bg-[#FF4000] text-[20px] m-[8px] p-[10px] rounded-3xl">SharePoint</h3>
                                 <h3 className="bg-[#1ABFBC] text-[20px] m-[8px] p-[10px] rounded-3xl">MS365 Business Admin</h3>

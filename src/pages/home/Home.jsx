@@ -14,10 +14,10 @@ const Home = () => {
         <>
             <div id='home'>
                 <Navbar />
-                <div className='home-container'>
+                <div className='home-container '>
                     <div className='home-page-inner'>
                         <Header></Header>
-                        <div className='flex flex-col items-center justify-center gap-3'>
+                        <div className='flex flex-col items-center justify-center gap-3 py-5 dark:bg-[#292929] dark:text-white'>
                             <p>SCROLL DOWN</p>
                             <BsMouse className='text-6xl' />
                         </div>

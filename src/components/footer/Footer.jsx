@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <>
             <div id="footer-section">
-                <div className="footer-container">
+                <div className="footer-container dark:bg-[#292929] dark:text-white py-5">
                     <div className="footer-inner my-8">
                         <div className='flex my-8 justify-center'>
                             <h2 className='text-6xl'> Contact Me</h2>

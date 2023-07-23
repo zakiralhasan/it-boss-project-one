@@ -5,9 +5,9 @@ import { FiGithub } from 'react-icons/fi';
 const CourseProject = () => {
     return (
         <>
-            <div>
+            <div className='dark:bg-[#292929] dark:text-white'>
                 <Navbar />
-                <div>
+                <div className='dark:bg-[#292929] dark:text-white'>
                     <div className='text-6xl text-center my-10'>
                         <Typewriter
                             options={{
