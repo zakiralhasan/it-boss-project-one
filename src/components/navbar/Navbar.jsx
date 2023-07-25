@@ -8,41 +8,41 @@ import { useEffect, useState } from 'react';
 
 const Navbar = () => {
     const [darkMode, setDarkMode] = useState(false)
-    const [mobileManue, setMobileManue] = useState(false)
-    const [mobileManueClick, setMobileManueClick] = useState(true)
+    const [mobileMenu, setMobileMenu] = useState(false)
+    const [mobileMenuClick, setMobileMenuClick] = useState(true)
 
-    const manuBar = <>
-        <li>
+    const menuBar = <>
+        <div className='menuBarForDesktop'>
             <Link to='/'>Home</Link>
-        </li>
-        <li>
-            <Link to='/'>About Me</Link>
-        </li>
-        <li>
-            <Link to='/'>Projects</Link>
-        </li>
-        <li>
-            <Link to='/'>Courses</Link>
-        </li>
-        <li>
-            <Link to='/'>Contacts</Link>
-        </li>
+        </div>
+        <div className='menuBarForDesktop'>
+            <a href='#header-section'>About Me</a>
+        </div>
+        <div className='menuBarForDesktop'>
+            <a href='#project-section'>Projects</a>
+        </div>
+        <div className='menuBarForDesktop'>
+            <a href='#courses-section'>Courses</a>
+        </div>
+        <div className='menuBarForDesktop'>
+            <a href='#footer-section'>Contacts</a>
+        </div>
     </>
-    const manuBarForMobile = <>
+    const menuBarForMobile = <>
         <li>
             <Link to='/'>Home</Link>
         </li>
         <li>
-            <Link to='/'>About Me</Link>
+            <Link to='header-section'>About Me</Link>
         </li>
         <li>
-            <Link to='/'>Projects</Link>
+            <Link to='project-section'>Projects</Link>
         </li>
         <li>
-            <Link to='/'>Courses</Link>
+            <Link to='courses-section'>Courses</Link>
         </li>
         <li>
-            <Link to='/'>Contacts</Link>
+            <Link to='footer-section'>Contacts</Link>
         </li>
     </>
     // Function for dark mode conrol 
@@ -67,29 +67,29 @@ const Navbar = () => {
         <>
             <div id='nav-section'>
                 <div className='nav-container relative dark:bg-[#515151] dark:text-white'>
-                    <div className='nav-inner flex justify-between items-center mt-3 text-base mx-10'>
+                    <div className='nav-inner flex justify-between items-center text-base mx-10'>
                         <a href="/">
                             <img src={logo} alt="logo" className='logo w-8' />
                         </a>
                         {/* Navbar items section start  */}
                         <div className='flex justify-center items-center gap-5'>
                             <div className='flex gap-4 my-4 items-center '>
-                                {!mobileManue ?
+                                {!mobileMenu ?
                                     <div className=' hidden xl:block'>
                                         <div className='flex gap-4 my-4'>
-                                            {manuBar}
+                                            {menuBar}
                                         </div>
                                     </div> :
-                                    <div className='manuBarForMobile'>
+                                    <div className='menuBarForMobile'>
                                         {
-                                            manuBarForMobile
+                                            menuBarForMobile
                                         }
                                     </div>
                                 }
                                 {/* Mobile manue bar controller  */}
-                                {mobileManueClick ?
-                                    <AiOutlineMenu className='block xl:hidden cursor-pointer' onClick={() => { setMobileManue(!mobileManue); setMobileManueClick(!mobileManueClick) }} /> :
-                                    <BiMenuAltRight className='block xl:hidden cursor-pointer' onClick={() => { setMobileManue(!mobileManue); setMobileManueClick(!mobileManueClick) }} />
+                                {mobileMenuClick ?
+                                    <AiOutlineMenu className='block xl:hidden cursor-pointer' onClick={() => { setMobileMenu(!mobileMenu); setMobileMenuClick(!mobileMenuClick) }} /> :
+                                    <BiMenuAltRight className='block xl:hidden cursor-pointer' onClick={() => { setMobileMenu(!mobileMenu); setMobileMenuClick(!mobileMenuClick) }} />
                                 }
                             </div>
                             {/* Dark icon controller  */}

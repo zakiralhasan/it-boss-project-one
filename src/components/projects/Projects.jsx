@@ -1,4 +1,4 @@
-import './Projects.css';
+import './Project.css';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 

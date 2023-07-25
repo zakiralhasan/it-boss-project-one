@@ -4,6 +4,8 @@ import { FiGithub } from 'react-icons/fi';
 import { AiOutlineMail } from 'react-icons/ai';
 import { CiTwitter } from 'react-icons/ci';
 import Typewriter from 'typewriter-effect';
+import { Link } from 'react-router-dom';
+import './footer.css';
 
 
 
@@ -22,10 +24,18 @@ const Footer = () => {
                         </div>
 
                         <div className='flex gap-x-6 justify-center align-center'>
-                            <RiLinkedinLine className=' p-3 text-6xl border-2 border-black rounded-full' />
-                            <FiGithub className='p-3 text-6xl border-2 border-black rounded-full' />
-                            <AiOutlineMail className='p-3 text-6xl border-2 border-black rounded-full' />
-                            <CiTwitter className='p-3 text-6xl border-2 border-black rounded-full' />
+                            <Link to='https://www.linkedin.com/in/ali-bichanga/' className='footer-social-icon-common footer-social-icon-1'>
+                                <RiLinkedinLine className=' p-4 text-6xl rounded-full' />
+                            </Link>
+                            <Link to='https://github.com/alice3217' className='footer-social-icon-common footer-social-icon-2'>
+                                <FiGithub className='p-4 text-6xl rounded-full' />
+                            </Link>
+                            <Link to='https://mail.google.com/' className='footer-social-icon-common footer-social-icon-3'>
+                                <AiOutlineMail className='p-4 text-6xl rounded-full' />
+                            </Link>
+                            <Link to='https://twitter.com/' className='footer-social-icon-common footer-social-icon-4'>
+                                <CiTwitter className='p-3 text-6xl rounded-full' />
+                            </Link>
                         </div>
                     </div>
                 </div>

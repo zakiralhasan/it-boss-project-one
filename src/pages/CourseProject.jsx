@@ -1,6 +1,7 @@
 import Typewriter from 'typewriter-effect';
 import Navbar from '../components/navbar/Navbar';
 import { FiGithub } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 const CourseProject = () => {
     return (
@@ -19,7 +20,9 @@ const CourseProject = () => {
                     </div>
                     <div className='bg-black flex xl:flex-row flex-col-reverse gap-10 items-center xl:py-20 px-16'>
                         <div className='flex justify-center basis-1/2 p-5'>
-                            <FiGithub className='p-3 text-6xl border-2 border-white text-white rounded-full w-20 h-20' />
+                            <Link to='https://github.com/alice3217/Course-Projects'>
+                                <FiGithub className='p-3 text-6xl border-2 border-white text-white rounded-full w-20 h-20' />
+                            </Link>
                         </div>
                         <div className='text-white basis-1/2'>
                             <h2 className="font-russo text-5xl my-5 text-left">Object Oriented <br />Programming</h2>
@@ -33,7 +36,9 @@ const CourseProject = () => {
                     </div>
                     <div className='flex xl:flex-row-reverse flex-col-reverse gap-10 items-center xl:py-20 px-16'>
                         <div className='flex justify-center basis-1/2 p-5'>
-                            <FiGithub className='p-3 text-6xl border-2 border-black rounded-full w-20 h-20' />
+                            <Link to='https://github.com/alice3217/Course-Projects'>
+                                <FiGithub className='p-3 text-6xl border-2 border-black rounded-full w-20 h-20' />
+                            </Link>
                         </div>
                         <div className=' basis-1/2'>
                             <h2 className="font-russo text-5xl my-5 text-left">Computer <br /> Systems</h2>
@@ -47,7 +52,9 @@ const CourseProject = () => {
                     </div>
                     <div className='bg-black flex xl:flex-row flex-col-reverse gap-10 items-center xl:py-20 px-20'>
                         <div className='flex justify-center basis-1/2 p-5'>
-                            <FiGithub className='p-3 text-6xl border-2 border-white text-white rounded-full w-20 h-20' />
+                            <Link to='https://github.com/alice3217/Course-Projects'>
+                                <FiGithub className='p-3 text-6xl border-2 border-white text-white rounded-full w-20 h-20' />
+                            </Link>
                         </div>
                         <div className='text-white basis-1/2'>
                             <h2 className="font-russo text-5xl my-5 text-left">Programming <br />Languages</h2>
@@ -61,7 +68,9 @@ const CourseProject = () => {
                     </div>
                     <div className='flex xl:flex-row-reverse flex-col-reverse gap-10 items-center xl:py-20 px-16'>
                         <div className='flex justify-center basis-1/2 p-5'>
-                            <FiGithub className='p-3 text-6xl border-2 border-black rounded-full w-20 h-20' />
+                            <Link to='https://github.com/alice3217/Course-Projects'>
+                                <FiGithub className='p-3 text-6xl border-2 border-black rounded-full w-20 h-20' />
+                            </Link>
                         </div>
                         <div className=' basis-1/2'>
                             <h2 className="font-russo text-5xl my-5 text-left">Applied <br />Probability <br />and Statistics</h2>

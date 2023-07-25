@@ -29,7 +29,7 @@
         "data": "An introductory course to probability, the mathematical theory of randomness, and to statistics, the mathematical science of data analysis and analysis in the presence of uncertainty. Applications of statistics and probability to real world problems are also presented. This course utilizes R-Studio and R extensively.",
         "btnData": "Course Projects",
         "language": "R",
-        "image": "/src/assets/courses-img-four.png"
+        "image": "/src/assets/courses-img-four.jpg"
     },
     {
         "id": "a5",
@@ -37,7 +37,7 @@
         "data": "Fundamental mathematical concepts related to computer science, including finite and infinite sets, relations, functions, and propositional logic. Introduction to other techniques, modeling and solving problems in computer science. Introduction to permutations, combinations, graphs, and trees with selected applications.",
         "btnData": "Course Projects",
         "language": "",
-        "image": "/src/assets/courses-img-five.png"
+        "image": "/src/assets/courses-img-five.jpg"
     },
     {
         "id": "a6",

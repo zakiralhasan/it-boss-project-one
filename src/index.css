@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 :root {
-  /* font-family: monospace; */
   font-family: monospace, russo, sans-serif;
-  /* font-family: Inter, monospace, Arial, sans-serif; */
 }
 
 * {
@@ -14,10 +12,6 @@
   box-sizing: border-box;
 }
 
-/* html {
-  font-size: 62.5%;
-} */
-
 body {
   max-width: 100%;
   width: 100%;
@@ -25,4 +19,17 @@ body {
 
 li {
   list-style: none;
+}
+/* scrool bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+}
+::-webkit-scrollbar-thumb {
+  background: #0084bf;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
 }

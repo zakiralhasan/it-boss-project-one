@@ -1,0 +1,92 @@
+.CourseCard p{
+    line-height: 14px;
+}
+.cmb{
+    margin-bottom: 50px;
+}
+.CourseCard{
+    overflow: hidden;
+    position: relative;
+    z-index: 222;
+    cursor: pointer;
+}
+.coure-img{
+    object-fit: cover;
+}
+
+.CourseCard::after{
+    content: "";
+    position: absolute;
+    top: -900px;
+    left: -900px;
+    background-color: #ffffff;
+    height: 900px;
+    width: 900px;
+    transform: rotate(-32.3deg);
+    transition: 0.5s;
+    z-index: -1;
+}
+.CourseCard::before{
+    content: "";
+    position: absolute;
+    bottom: -900px;
+    right: -900px;
+    background-color: #ffffff;
+    height: 900px;
+    width: 900px;
+    transform: rotate(-32.3deg);
+    transition: 0.5s;
+    z-index: -1;
+}
+.CourseCard:hover::after{
+    top: -590px;
+    left: -565px;
+}
+.CourseCard:hover::before{
+    bottom: -590px;
+    right: -565px;
+}
+
+.courseCardText{
+    opacity: 0;
+}
+.CourseCard:hover .courseCardText{
+    opacity: 1;
+    animation: xyz 1s ease ;
+}
+@keyframes xyz {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.p-frame-1{
+    border: 2px solid #eeeeee; 
+    border-bottom: 2px solid #dfdcdc; 
+    border-top: 2px solid #dfdcdc; 
+    background: #fff; 
+    
+}
+.p-frame-2{
+    border: 4px solid #e2e1e1; 
+    border-bottom: 4px solid #dfdcdc; 
+    border-top: 4px solid #dfdcdc; 
+    background: #fff; 
+    
+}
+.p-frame-3{
+    border: 15px solid #cfcbcb; 
+    border-bottom: 15px solid #cfcbcb; 
+    border-top: 15px solid #cfcbcb; 
+    background: #fff; 
+}
+.p-frame-4{
+    border: 10px solid #eeeded; 
+    border-bottom: 10px solid #dfdcdc; 
+    border-top: 10px solid #dfdcdc; 
+    background: #fff; 
+     
+}

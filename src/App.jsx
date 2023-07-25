@@ -33,7 +33,6 @@ function App() {
     { path: '/others', element: <OtherProjects /> }
   ])
   return (
-
     <>
       <div>
         <RouterProvider router={router}></RouterProvider>

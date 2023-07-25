@@ -2,10 +2,10 @@ import Typewriter from 'typewriter-effect';
 import Navbar from '../components/navbar/Navbar';
 import { AiOutlineLink } from 'react-icons/ai'
 import img1 from '../assets/web-page-image-one.png'
-import img2 from '../assets/web-page-image-two.png'
+import img2 from '../assets/web-page-image-two.jpg'
 import img3 from '../assets/web-page-image-three.png'
-import img4 from '../assets/web-page-image-four.png'
-import img5 from '../assets/web-page-image-five.png'
+import img4 from '../assets/web-page-image-four.jpg'
+import img5 from '../assets/web-page-image-five.jpg'
 
 const Websites = () => {
     return (

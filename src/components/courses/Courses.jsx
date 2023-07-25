@@ -1,7 +1,7 @@
 import Typewriter from 'typewriter-effect';
 import CourseCard from './CourseCard';
-
-import api from '../../../public/API.json'
+import './course.css'
+import api from '../../assets/API.json'
 const Courses = () => {
     return (
         <>

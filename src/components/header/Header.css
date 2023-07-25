@@ -1,28 +1,99 @@
-.header-animate-item-1 {
-    position: absolute;
-    background-color: #17bebb;
-    padding-inline: 10px;
-    /* opacity: 0; */
-    transform-origin: rotate(30deg);
-    animation: 3s ease-in 1s 2;
+.header-text-animation-main {
+    text-align: left;
 }
 
-.header-animate-item-2 {
-    width: max-content;
-    position: absolute;
-    background-color: #17bebb;
-    padding-inline: 10px;
-    opacity: 0;
-    transform-origin: 10% 75%;
-    animation: 3s ease-in 1s 2 linear infinite;
+.header-animation-text span {
+    display: none;
+    position: relative;
+    left: 10px;
 }
 
-.header-animate-item-3 {
-    width: max-content;
-    position: absolute;
-    background-color: #17bebb;
-    padding-inline: 10px;
-    opacity: 0;
-    transform-origin: 10% 75%;
-    animation: rotateWords 9s var(6) linear infinite;
+.header-a-word {
+    display: inline-block;
+}
+
+.header-animation-text {
+    display: inline-block;
+    animation: axk 4s infinite ease-in-out;
+}
+
+@keyframes axk {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-2deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(2deg);
+    }
+}
+
+.header-animation-text span.text-out {
+    display: inline-block;
+    opacity: 1;
+    background-color: #1ABFBC;
+    padding: 0 25px;
+    animation: textOut 1.5s ease-out 2.5s;
+}
+
+@keyframes textOut {
+    0% {
+        opacity: 1;
+        top: 0px;
+        transform: rotate(0deg);
+    }
+
+    20% {
+        opacity: 1;
+        top: 0px;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        opacity: 0;
+        top: 150px;
+        transform: rotate(10deg);
+    }
+
+}
+
+.header-title{
+    display: flex;
+    letter-spacing: -4px;
+    gap: 20px;
+}
+
+.p-frame-1{
+    border: 2px solid #eeeeee; 
+    border-bottom: 2px solid #dfdcdc; 
+    border-top: 2px solid #dfdcdc; 
+    background: #fff; 
+    
+}
+.p-frame-2{
+    border: 4px solid #e2e1e1; 
+    border-bottom: 4px solid #dfdcdc; 
+    border-top: 4px solid #dfdcdc; 
+    background: #fff; 
+    
+}
+.p-frame-3{
+    border: 15px solid #cfcbcb; 
+    border-bottom: 15px solid #cfcbcb; 
+    border-top: 15px solid #cfcbcb; 
+    background: #fff; 
+}
+.p-frame-4{
+    border: 10px solid #eeeded; 
+    border-bottom: 10px solid #dfdcdc; 
+    border-top: 10px solid #dfdcdc; 
+    background: #fff; 
+    box-shadow: 0px 1px 11px 6px rgba(143 ,143 ,143, 0.5);
 }
